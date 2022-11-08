@@ -1,0 +1,99 @@
+.mt-100 {
+  margin-top: 100px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #d2d2dc;
+  border-radius: 0;
+}
+input {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0.8, 0.8);
+}
+
+.card .card-body {
+  padding: 1.25rem 1.75rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+@keyframes click-wave {
+  0% {
+    height: 40px;
+    width: 40px;
+    opacity: 0.15;
+    position: relative;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0;
+  }
+}
+
+.circle {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  transition: all 0.15s ease-out 0s;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+.circle:hover {
+  background: #9faab7;
+}
+.circle:checked {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg)
+    center center no-repeat;
+  border-radius: 100%;
+}
+.circle:checked::before {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  content: "\f111";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+}
+.circle:checked::after {
+  border-radius: 25px;
+  content: "";
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+.circle.radio {
+  border-radius: 50%;
+}
+.circle.radio::after {
+  border-radius: 50%;
+}

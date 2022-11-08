@@ -1,0 +1,12 @@
+.card {
+  position: absolute;
+  text-align: center;
+}
+.btn {
+  border-radius: 20px;
+  background-color: #db3022;
+  color: white;
+}
+p {
+  color: gray;
+}
