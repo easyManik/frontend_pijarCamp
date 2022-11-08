@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "1.0.0",
   "description": "",
-  "source": "./src/login/login.html",
+  "source": "./src/auth/loginCust.html",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build"
