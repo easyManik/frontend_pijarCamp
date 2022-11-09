@@ -3,10 +3,15 @@ Projek ini dilakukan untuk memenuhi kebutuhan tugas week 4 dengan topik Web Resp
 
 Requirements:
 ○ Html5 Semantic
+
 ○ Grid/Flexbox
+
 ○ Bootstrap Container & Grid
+
 ○ External CSS
+
 ○ Media Query
+
 ○ Responsive
 
 Page (Halaman) yang dikerjakan:
